@@ -1,0 +1,10 @@
+#ifndef PLAYER_H
+#define PLAYER_H
+struct player{
+    bool movimento = false;
+    bool atirando = false;
+    int direcao = 0;
+    int vida = 3;
+    int score = 0;
+}
+#endif // PLAYER_H
